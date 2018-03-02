@@ -1,0 +1,2337 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="東京のSwift developer達が選ぶ、try! Swift で聞きたかったLTを集めました。２日間かけてtry!Swift Tokyo 2018の余韻を楽しみましょう！">
+  <meta name="author" content="try! Swift After Talks">
+  <meta name="generator" content="Hugo 0.34" />
+  <title>try! Swift After Talks</title>
+  <!-- Stylesheets -->
+  <link href="https://tryswift-tokyo-after-talks.github.io/css/bootstrap-v3.3.7/bootstrap.min.css" rel="stylesheet">
+  <link href="https://tryswift-tokyo-after-talks.github.io/css/agency.css" rel="stylesheet">
+  <link href="https://tryswift-tokyo-after-talks.github.io/css/jquery.form-validator-v2.3.44/theme-default.min.css" rel="stylesheet">
+
+  
+    <link rel="stylesheet" href="https://tryswift-tokyo-after-talks.github.io/css/remodal.css">
+  
+    <link rel="stylesheet" href="https://tryswift-tokyo-after-talks.github.io/css/remodal-default-theme.css">
+  
+
+  <!-- Custom Fonts -->
+  <link href="https://tryswift-tokyo-after-talks.github.io/font-awesome-v4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+  
+    <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css">
+  
+
+  
+    <link rel="shortcut icon" type="image/x-icon" href="https://tryswift-tokyo-after-talks.github.io/favicon.png">
+    <link rel="icon" type="image/x-icon" href="https://tryswift-tokyo-after-talks.github.io/favicon.png">
+  
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+
+  <body id="page-top" class="index">
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+        <a class="navbar-brand page-scroll" href="/#page-top">
+          try! Swift After Talks
+        </a>
+      
+
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="hidden">
+          <a href="/#page-top"></a>
+        </li>
+
+        
+
+          <li>
+            <a class="page-scroll" href="https://tryswift-tokyo-after-talks.github.io/#about">About</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="https://tryswift-tokyo-after-talks.github.io/#speakers">Speakers</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="https://tryswift-tokyo-after-talks.github.io/#timetables">TimeTables</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="https://tryswift-tokyo-after-talks.github.io/#sponsors">Sponsors</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="https://tryswift-tokyo-after-talks.github.io/#organizers">Organizers</a>
+          </li>
+
+        
+
+
+
+    
+    <li>
+        <a href="https://tryswift-tokyo-after-talks.github.io/en/"><i class="fa fa-globe"></i>jp</a>
+    </li>
+    
+
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+</nav>
+
+    <!-- Hero -->
+<header>
+  <div class="container">
+    <div class="intro-text">
+      <div class="intro-lead-in"></div>
+      <div class="intro-heading">try! Swift<br>After Talks</div>
+      <a href="#about" class="page-scroll btn btn-xl">詳細</a>
+    </div>
+  </div>
+</header>
+
+
+      <!-- About -->
+
+<section id="about" class="bg-light-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">try! Swift after talks とは</h2>
+        <h3 class="section-subheading text-muted">今年の try! Swift Tokyo 2018 にもたくさんのCfPの応募をいただきました。主催者で選考を行いましたが、枠数には限りがあり、泣く泣く見送るCfPもありました。そこでこのイベントでは、東京のSwift developer達が選ぶ、try! Swift で聞きたかったLTを集めました。２日間かけてtry!Swift Tokyo 2018の余韻を楽しみましょう！</h3>
+      </div>
+    </div>
+      <div class="row text-center">
+        
+          <div class="col-md-6">
+            <div style="height: 150px; width: 300px; margin: auto;">
+              <img src="https://tryswift-tokyo-after-talks.github.io/img/logos/DeNA_logo_RGB.png" class="img-responsive">
+            </div>
+            <h4 class="service-heading">1日目 @ 株式会社ディー・エヌ・エー</a></h4>
+            <p class="text-muted"><i class="fa fa-calendar"></i> 2018/3/8(木) 19:00-</p>
+            <p class="text-muted"><i class="fa fa-map-marker"></i> <a href="https://maps.google.co.jp/?q=%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B8%8B%E8%B0%B7%E5%8C%BA%E6%B8%8B%E8%B0%B72-21-1+%E6%B8%8B%E8%B0%B7%E3%83%92%E3%82%AB%E3%83%AA%E3%82%A8&amp;zoom=17">東京都渋谷区渋谷2-21-1 渋谷ヒカリエ</a></p>
+            <a href="https://tryswifttokyo-aftertalks.connpass.com/event/79689" class="btn btn-xl"><i class="fa fa-compass"></i> Connpassから参加</a>
+          </div>
+        
+          <div class="col-md-6">
+            <div style="height: 150px; width: 300px; margin: auto;">
+              <img src="https://tryswift-tokyo-after-talks.github.io/img/logos/yahoo_japan.png" class="img-responsive">
+            </div>
+            <h4 class="service-heading">2日目 @ ヤフー株式会社</a></h4>
+            <p class="text-muted"><i class="fa fa-calendar"></i> 2018/3/9(金) 19:00-</p>
+            <p class="text-muted"><i class="fa fa-map-marker"></i> <a href="https://maps.google.co.jp/?q=%E6%9D%B1%E4%BA%AC%E9%83%BD+%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA%E7%B4%80%E5%B0%BE%E4%BA%95%E7%94%BA1-3&amp;zoom=17">東京都千代田区紀尾井町1-3 東京ガーデンテラス紀尾井町 17F</a></p>
+            <a href="https://tryswifttokyo-aftertalks.connpass.com/event/79690" class="btn btn-xl"><i class="fa fa-compass"></i> Connpassから参加</a>
+          </div>
+        
+      </div>
+  </div>
+</section>
+
+
+      <!-- speakers Section -->
+
+<section id="speakers">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Speakers</h2>
+        <h3 class="section-subheading text-mutedwith "></h3>
+      </div>
+    </div>
+    <div class="row flexbox flexbox-center">
+      
+      
+        
+        
+          
+          
+            <div class="col-xs-8 col-sm-4 col-md-3 col-lg-3">
+              <div class="team-member">
+                
+                <a data-remodal-target="person_bannzai">
+                    <img src="https://tryswift-tokyo-after-talks.github.io/img/people/bannzai.jpg" class="img-responsive img-circle" alt="bannzai">
+                </a>
+                <h3>
+                  <a data-remodal-target="person_bannzai">
+                    bannzai
+                  </a>
+                  
+                    <span class="social-buttons">
+                      <a href="https://twitter.com/_bannzai_"><i class="fa fa-twitter"></i></a>
+                    </span>
+                  
+                    <span class="social-buttons">
+                      <a href="https://github.com/bannzai"><i class="fa fa-github"></i></a>
+                    </span>
+                  
+                </h3>
+                
+              </div>
+            </div>
+          
+        
+      
+        
+        
+          
+          
+            <div class="col-xs-8 col-sm-4 col-md-3 col-lg-3">
+              <div class="team-member">
+                
+                <a data-remodal-target="person_gaopin1534">
+                    <img src="https://tryswift-tokyo-after-talks.github.io/img/people/gaopin1534.jpg" class="img-responsive img-circle" alt="Kouhei Takamatsu">
+                </a>
+                <h3>
+                  <a data-remodal-target="person_gaopin1534">
+                    Kouhei Takamatsu
+                  </a>
+                  
+                    <span class="social-buttons">
+                      <a href="https://twitter.com/gaopin1534"><i class="fa fa-twitter"></i></a>
+                    </span>
+                  
+                    <span class="social-buttons">
+                      <a href="https://github.com/gaopin1534"><i class="fa fa-github"></i></a>
+                    </span>
+                  
+                </h3>
+                
+              </div>
+            </div>
+          
+        
+      
+        
+        
+          
+          
+            <div class="col-xs-8 col-sm-4 col-md-3 col-lg-3">
+              <div class="team-member">
+                
+                <a data-remodal-target="person_inamiy">
+                    <img src="https://tryswift-tokyo-after-talks.github.io/img/people/inamiy.jpg" class="img-responsive img-circle" alt="Yasuhiro Inami">
+                </a>
+                <h3>
+                  <a data-remodal-target="person_inamiy">
+                    Yasuhiro Inami
+                  </a>
+                  
+                    <span class="social-buttons">
+                      <a href="https://twitter.com/inamiy"><i class="fa fa-twitter"></i></a>
+                    </span>
+                  
+                    <span class="social-buttons">
+                      <a href="https://github.com/inamiy"><i class="fa fa-github"></i></a>
+                    </span>
+                  
+                </h3>
+                
+                <h4>an iOS developer at CyberAgent, Inc</h4>
+                
+              </div>
+            </div>
+          
+        
+      
+        
+        
+          
+          
+            <div class="col-xs-8 col-sm-4 col-md-3 col-lg-3">
+              <div class="team-member">
+                
+                <a data-remodal-target="person_jarinosuke">
+                    <img src="https://tryswift-tokyo-after-talks.github.io/img/people/jarinosuke.png" class="img-responsive img-circle" alt="Naoki Ishikawa/jarinosuke">
+                </a>
+                <h3>
+                  <a data-remodal-target="person_jarinosuke">
+                    Naoki Ishikawa/jarinosuke
+                  </a>
+                  
+                    <span class="social-buttons">
+                      <a href="https://twitter.com/jarinosuke"><i class="fa fa-twitter"></i></a>
+                    </span>
+                  
+                    <span class="social-buttons">
+                      <a href="https://github.com/jarinosuke"><i class="fa fa-github"></i></a>
+                    </span>
+                  
+                </h3>
+                
+                <h4>iOS Engineer @ Mercari, Inc</h4>
+                
+              </div>
+            </div>
+          
+        
+      
+        
+        
+          
+          
+            <div class="col-xs-8 col-sm-4 col-md-3 col-lg-3">
+              <div class="team-member">
+                
+                <a data-remodal-target="person_kazuhiro4949">
+                    <img src="https://tryswift-tokyo-after-talks.github.io/img/people/kazuhiro4949.jpg" class="img-responsive img-circle" alt="林和弘">
+                </a>
+                <h3>
+                  <a data-remodal-target="person_kazuhiro4949">
+                    林和弘
+                  </a>
+                  
+                    <span class="social-buttons">
+                      <a href="https://twitter.com/kazuhiro494949"><i class="fa fa-twitter"></i></a>
+                    </span>
+                  
+                </h3>
+                
+                <h4>ヤフー株式会社</h4>
+                
+              </div>
+            </div>
+          
+        
+      
+        
+        
+          
+          
+            <div class="col-xs-8 col-sm-4 col-md-3 col-lg-3">
+              <div class="team-member">
+                
+                <a data-remodal-target="person_koher">
+                    <img src="https://tryswift-tokyo-after-talks.github.io/img/people/koher.jpg" class="img-responsive img-circle" alt="Yuta Koshizawa">
+                </a>
+                <h3>
+                  <a data-remodal-target="person_koher">
+                    Yuta Koshizawa
+                  </a>
+                  
+                    <span class="social-buttons">
+                      <a href="https://twitter.com/koher"><i class="fa fa-twitter"></i></a>
+                    </span>
+                  
+                    <span class="social-buttons">
+                      <a href="https://github.com/koher"><i class="fa fa-github"></i></a>
+                    </span>
+                  
+                </h3>
+                
+                <h4>a developer at Qoncept</h4>
+                
+              </div>
+            </div>
+          
+        
+      
+        
+        
+          
+          
+            <div class="col-xs-8 col-sm-4 col-md-3 col-lg-3">
+              <div class="team-member">
+                
+                <a data-remodal-target="person_naruchigi">
+                    <img src="https://tryswift-tokyo-after-talks.github.io/img/people/naruchigi.png" class="img-responsive img-circle" alt="Naruki Chigira">
+                </a>
+                <h3>
+                  <a data-remodal-target="person_naruchigi">
+                    Naruki Chigira
+                  </a>
+                  
+                    <span class="social-buttons">
+                      <a href="https://twitter.com/naruchigi"><i class="fa fa-twitter"></i></a>
+                    </span>
+                  
+                    <span class="social-buttons">
+                      <a href="https://github.com/naru-jpn"><i class="fa fa-github"></i></a>
+                    </span>
+                  
+                </h3>
+                
+                <h4>株式会社TimersのリードiOSエンジニア</h4>
+                
+              </div>
+            </div>
+          
+        
+      
+        
+        
+          
+          
+            <div class="col-xs-8 col-sm-4 col-md-3 col-lg-3">
+              <div class="team-member">
+                
+                <a data-remodal-target="person_niwatako">
+                    <img src="https://tryswift-tokyo-after-talks.github.io/img/people/niwatako.jpg" class="img-responsive img-circle" alt="Seiyo Kurita">
+                </a>
+                <h3>
+                  <a data-remodal-target="person_niwatako">
+                    Seiyo Kurita
+                  </a>
+                  
+                    <span class="social-buttons">
+                      <a href="https://twitter.com/niwatako"><i class="fa fa-twitter"></i></a>
+                    </span>
+                  
+                </h3>
+                
+                <h4>Engineer at Hatena</h4>
+                
+              </div>
+            </div>
+          
+        
+      
+        
+        
+          
+          
+            <div class="col-xs-8 col-sm-4 col-md-3 col-lg-3">
+              <div class="team-member">
+                
+                <a data-remodal-target="person_satoshin21">
+                    <img src="https://tryswift-tokyo-after-talks.github.io/img/people/satoshin21.jpg" class="img-responsive img-circle" alt="Satoshi Nagasaka">
+                </a>
+                <h3>
+                  <a data-remodal-target="person_satoshin21">
+                    Satoshi Nagasaka
+                  </a>
+                  
+                    <span class="social-buttons">
+                      <a href="https://twitter.com/SatoshiN21"><i class="fa fa-twitter"></i></a>
+                    </span>
+                  
+                    <span class="social-buttons">
+                      <a href="https://github.com/Satoshin21"><i class="fa fa-github"></i></a>
+                    </span>
+                  
+                </h3>
+                
+              </div>
+            </div>
+          
+        
+      
+        
+        
+          
+          
+            <div class="col-xs-8 col-sm-4 col-md-3 col-lg-3">
+              <div class="team-member">
+                
+                <a data-remodal-target="person_takasek">
+                    <img src="https://tryswift-tokyo-after-talks.github.io/img/people/takasek.jpg" class="img-responsive img-circle" alt="takasek">
+                </a>
+                <h3>
+                  <a data-remodal-target="person_takasek">
+                    takasek
+                  </a>
+                  
+                    <span class="social-buttons">
+                      <a href="https://twitter.com/takasek"><i class="fa fa-twitter"></i></a>
+                    </span>
+                  
+                </h3>
+                
+                <h4>フリーランスiOSエンジニア</h4>
+                
+              </div>
+            </div>
+          
+        
+      
+        
+        
+          
+          
+            <div class="col-xs-8 col-sm-4 col-md-3 col-lg-3">
+              <div class="team-member">
+                
+                <a data-remodal-target="person_tobi462">
+                    <img src="https://tryswift-tokyo-after-talks.github.io/img/people/tobi462.jpg" class="img-responsive img-circle" alt="Yusuke Hosonuma">
+                </a>
+                <h3>
+                  <a data-remodal-target="person_tobi462">
+                    Yusuke Hosonuma
+                  </a>
+                  
+                    <span class="social-buttons">
+                      <a href="https://twitter.com/tobi462"><i class="fa fa-twitter"></i></a>
+                    </span>
+                  
+                    <span class="social-buttons">
+                      <a href="https://github.com/YusukeHosonuma"><i class="fa fa-github"></i></a>
+                    </span>
+                  
+                </h3>
+                
+              </div>
+            </div>
+          
+        
+      
+    </div>
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 text-center">
+        <p class="large text-muted"></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <!-- Timetables Section -->
+<section id="timetables" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+              <h2 class="section-heading">Timetable</h2>
+            </div>
+        </div>
+        <table class="table table-bordered timetable" style="overflow-x: scroll;">
+            <tr>
+                <th style="width:10%"></th>
+                <th style="width:45%; background-color: white;">3/8(Thr) @ DeNA</th>
+                <th style="width:45%; background-color: white;">3/9(Fri) @ Yahoo!</th>
+            </tr>
+          
+            <tr class="active">
+                <td align="center">19:00</td>
+                <th colspan="2">開場</th>
+            </tr>
+            <tr class="active">
+                <td align="center">19:20</td>
+                <th colspan="2">会場案内・開会</th>
+            </tr>
+
+            
+            
+            
+            
+
+            
+            
+            
+              <tr class="active">
+                <td align="center">19:30</td>
+                
+                
+                
+                
+                
+
+                <td style="background-color: white;">
+                <div>
+                  
+                  
+                      <div class="">
+                        <a data-remodal-target="day1_1">
+                            今日から始める Swift Package Manager で作るCLIツール
+                        </a>
+                      </div>
+                    
+                    
+                      
+                      
+                      <div style="float: right;">
+                          <span><i class="fa fa-bullhorn"></i> Yusuke Hosonuma</span>
+                          
+                          <span>
+                              <a data-remodal-target="person_tobi462">
+                              <img src="https://tryswift-tokyo-after-talks.github.io/img/people/tobi462.jpg" class="img img-circle" style="width: 40px;" alt="">
+                              </a>
+                            </span>
+                      </div>
+                    
+                  
+                </div>
+                </td>
+                
+
+                <td style="background-color: white;">
+                <div>
+                  
+                  
+                      <div class="">
+                        <a data-remodal-target="day2_1">
+                            Swiftバグレポートレポート
+                        </a>
+                      </div>
+                    
+                    
+                      
+                      
+                      <div style="float: right;">
+                          <span><i class="fa fa-bullhorn"></i> 林和弘</span>
+                          
+                          <span>
+                              <a data-remodal-target="person_kazuhiro4949">
+                              <img src="https://tryswift-tokyo-after-talks.github.io/img/people/kazuhiro4949.jpg" class="img img-circle" style="width: 40px;" alt="">
+                              </a>
+                            </span>
+                      </div>
+                    
+                  
+                </div>
+                </td>
+                
+              </tr>
+
+              
+            
+              <tr class="active">
+                <td align="center">19:40</td>
+                
+                
+                
+                
+                
+
+                <td style="background-color: white;">
+                <div>
+                  
+                  
+                      <div class="">
+                        <a data-remodal-target="day1_2">
+                            mutatingキーワードから学ぶCQS
+                        </a>
+                      </div>
+                    
+                    
+                      
+                      
+                      <div style="float: right;">
+                          <span><i class="fa fa-bullhorn"></i> takasek</span>
+                          
+                          <span>
+                              <a data-remodal-target="person_takasek">
+                              <img src="https://tryswift-tokyo-after-talks.github.io/img/people/takasek.jpg" class="img img-circle" style="width: 40px;" alt="">
+                              </a>
+                            </span>
+                      </div>
+                    
+                  
+                </div>
+                </td>
+                
+
+                <td style="background-color: white;">
+                <div>
+                  
+                  
+                      <div class="">
+                        <a data-remodal-target="day2_2">
+                            Result<T> V.S. Result<T, E>
+                        </a>
+                      </div>
+                    
+                    
+                      
+                      
+                      <div style="float: right;">
+                          <span><i class="fa fa-bullhorn"></i> Yasuhiro Inami</span>
+                          
+                          <span>
+                              <a data-remodal-target="person_inamiy">
+                              <img src="https://tryswift-tokyo-after-talks.github.io/img/people/inamiy.jpg" class="img img-circle" style="width: 40px;" alt="">
+                              </a>
+                            </span>
+                      </div>
+                    
+                  
+                </div>
+                </td>
+                
+              </tr>
+
+              
+            
+              <tr class="active">
+                <td align="center">19:50</td>
+                
+                
+                
+                
+                
+
+                <td style="background-color: white;">
+                <div>
+                  
+                  
+                      <div class="">
+                        <a data-remodal-target="day1_3">
+                            RIBs を用いたモバイルアーキテクチャ設計
+                        </a>
+                      </div>
+                    
+                    
+                      
+                      
+                      <div style="float: right;">
+                          <span><i class="fa fa-bullhorn"></i> Naoki Ishikawa/jarinosuke</span>
+                          
+                          <span>
+                              <a data-remodal-target="person_jarinosuke">
+                              <img src="https://tryswift-tokyo-after-talks.github.io/img/people/jarinosuke.png" class="img img-circle" style="width: 40px;" alt="">
+                              </a>
+                            </span>
+                      </div>
+                    
+                  
+                </div>
+                </td>
+                
+
+                <td style="background-color: white;">
+                <div>
+                  
+                  
+                      <div class="">
+                        <a data-remodal-target="day2_3">
+                            忙しい人のためのブロックチェーン
+                        </a>
+                      </div>
+                    
+                    
+                      
+                      
+                      <div style="float: right;">
+                          <span><i class="fa fa-bullhorn"></i> Seiyo Kurita</span>
+                          
+                          <span>
+                              <a data-remodal-target="person_niwatako">
+                              <img src="https://tryswift-tokyo-after-talks.github.io/img/people/niwatako.jpg" class="img img-circle" style="width: 40px;" alt="">
+                              </a>
+                            </span>
+                      </div>
+                    
+                  
+                </div>
+                </td>
+                
+              </tr>
+
+              
+            
+              <tr class="active">
+                <td align="center">20:00</td>
+                
+                
+                
+                
+                
+
+                <td style="background-color: white;">
+                <div>
+                  
+                  
+                      <div class="">
+                        <a data-remodal-target="day1_4">
+                            World of No Interface Builder
+                        </a>
+                      </div>
+                    
+                    
+                      
+                      
+                      <div style="float: right;">
+                          <span><i class="fa fa-bullhorn"></i> Satoshi Nagasaka</span>
+                          
+                          <span>
+                              <a data-remodal-target="person_satoshin21">
+                              <img src="https://tryswift-tokyo-after-talks.github.io/img/people/satoshin21.jpg" class="img img-circle" style="width: 40px;" alt="">
+                              </a>
+                            </span>
+                      </div>
+                    
+                  
+                </div>
+                </td>
+                
+
+                <td style="background-color: white;">
+                <div>
+                  
+                  
+                  <div>(TBD)</div>
+                  
+                </div>
+                </td>
+                
+              </tr>
+
+              
+              <tr class="active">
+                  <td align="center">20:10</td>
+                  <th colspan="2">休憩</th>
+              </tr>
+              
+            
+              <tr class="active">
+                <td align="center">20:20</td>
+                
+                
+                
+                
+                
+
+                <td style="background-color: white;">
+                <div>
+                  
+                  
+                      <div class="">
+                        <a data-remodal-target="day1_5">
+                            The swifter way of A/B testing implementation
+                        </a>
+                      </div>
+                    
+                    
+                      
+                      
+                      <div style="float: right;">
+                          <span><i class="fa fa-bullhorn"></i> Kouhei Takamatsu</span>
+                          
+                          <span>
+                              <a data-remodal-target="person_gaopin1534">
+                              <img src="https://tryswift-tokyo-after-talks.github.io/img/people/gaopin1534.jpg" class="img img-circle" style="width: 40px;" alt="">
+                              </a>
+                            </span>
+                      </div>
+                    
+                  
+                </div>
+                </td>
+                
+
+                <td style="background-color: white;">
+                <div>
+                  
+                  
+                      <div class="">
+                        <a data-remodal-target="day2_5">
+                            <code>Image</code> を値型として扱う
+                        </a>
+                      </div>
+                    
+                    
+                      
+                      
+                      <div style="float: right;">
+                          <span><i class="fa fa-bullhorn"></i> Yuta Koshizawa</span>
+                          
+                          <span>
+                              <a data-remodal-target="person_koher">
+                              <img src="https://tryswift-tokyo-after-talks.github.io/img/people/koher.jpg" class="img img-circle" style="width: 40px;" alt="">
+                              </a>
+                            </span>
+                      </div>
+                    
+                  
+                </div>
+                </td>
+                
+              </tr>
+
+              
+            
+              <tr class="active">
+                <td align="center">20:30</td>
+                
+                
+                
+                
+                
+
+                <td style="background-color: white;">
+                <div>
+                  
+                  
+                  <div>(TBD)</div>
+                  
+                </div>
+                </td>
+                
+
+                <td style="background-color: white;">
+                <div>
+                  
+                  
+                      <div class="">
+                        <a data-remodal-target="day2_6">
+                            デザイナーとエンジニアが理解し合うために
+                        </a>
+                      </div>
+                    
+                    
+                      
+                      
+                      <div style="float: right;">
+                          <span><i class="fa fa-bullhorn"></i> bannzai</span>
+                          
+                          <span>
+                              <a data-remodal-target="person_bannzai">
+                              <img src="https://tryswift-tokyo-after-talks.github.io/img/people/bannzai.jpg" class="img img-circle" style="width: 40px;" alt="">
+                              </a>
+                            </span>
+                      </div>
+                    
+                  
+                </div>
+                </td>
+                
+              </tr>
+
+              
+            
+              <tr class="active">
+                <td align="center">20:40</td>
+                
+                
+                
+                
+                
+
+                <td style="background-color: white;">
+                <div>
+                  
+                  
+                  <div>(TBD)</div>
+                  
+                </div>
+                </td>
+                
+
+                <td style="background-color: white;">
+                <div>
+                  
+                  
+                  <div>(TBD)</div>
+                  
+                </div>
+                </td>
+                
+              </tr>
+
+              
+            
+
+            <tr class="active">
+                <td align="center">20:50</td>
+                <th colspan="2">懇親会</th>
+            </tr>
+            <tr class="active">
+                <td align="center">21:50</td>
+                <th colspan="2">Closing</th>
+            </tr>
+        </table>
+    </div>
+  </section>
+
+  
+      <!-- Sponsors Aside -->
+<section id="sponsors">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+<h2 class="section-heading">Sponsors</h2>
+      </div>
+    </div>
+    <div class="row flexbox flexbox-center">
+
+      
+        <div class="col-md-3 col-sm-6 col-xs-8" style="padding: 5%;">
+          
+          
+            <a href="http://dena.com/jp/">
+              <img src="https://tryswift-tokyo-after-talks.github.io/img/logos/DeNA_logo_RGB.png" class="img-responsive img-centered" alt="">
+            </a>
+          
+        </div>
+      
+        <div class="col-md-3 col-sm-6 col-xs-8" style="padding: 5%;">
+          
+          
+            <a href="https://about.yahoo.co.jp/hr/engineers/">
+              <img src="https://tryswift-tokyo-after-talks.github.io/img/logos/yahoo_japan.png" class="img-responsive img-centered" alt="">
+            </a>
+          
+        </div>
+      
+
+    </div>
+  </div>
+</section>
+
+      <!-- organizers Section -->
+
+<section id="organizers" class="bg-light-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Organizers</h2>
+        <h3 class="section-subheading text-mutedwith "></h3>
+      </div>
+    </div>
+    <div class="row flexbox flexbox-center">
+      
+      
+        
+        
+          
+          
+            <div class="col-xs-4 col-sm-3 col-md-2 col-lg-2">
+              <div class="team-member">
+                
+                <a data-remodal-target="person_burakon">
+                    <img src="https://tryswift-tokyo-after-talks.github.io/img/people/burakon.jpg" class="img-responsive img-circle" alt="後藤玲子">
+                </a>
+                <h3>
+                  <a data-remodal-target="person_burakon">
+                    後藤玲子
+                  </a>
+                  
+                    <span class="social-buttons">
+                      <a href="https://twitter.com/burakon"><i class="fa fa-twitter"></i></a>
+                    </span>
+                  
+                </h3>
+                
+                <h4>iOSアプリエンジニア</h4>
+                
+              </div>
+            </div>
+          
+        
+      
+        
+        
+          
+          
+            <div class="col-xs-4 col-sm-3 col-md-2 col-lg-2">
+              <div class="team-member">
+                
+                <a data-remodal-target="person_d_date">
+                    <img src="https://tryswift-tokyo-after-talks.github.io/img/people/d_date.jpg" class="img-responsive img-circle" alt="松館 大輝">
+                </a>
+                <h3>
+                  <a data-remodal-target="person_d_date">
+                    松館 大輝
+                  </a>
+                  
+                    <span class="social-buttons">
+                      <a href="https://twitter.com/d_date"><i class="fa fa-twitter"></i></a>
+                    </span>
+                  
+                </h3>
+                
+                <h4>iOS Freelancer</h4>
+                
+              </div>
+            </div>
+          
+        
+      
+        
+        
+          
+          
+            <div class="col-xs-4 col-sm-3 col-md-2 col-lg-2">
+              <div class="team-member">
+                
+                <a data-remodal-target="person_jollyjoester">
+                    <img src="https://tryswift-tokyo-after-talks.github.io/img/people/jollyjoester.jpg" class="img-responsive img-circle" alt="七島偉之">
+                </a>
+                <h3>
+                  <a data-remodal-target="person_jollyjoester">
+                    七島偉之
+                  </a>
+                  
+                    <span class="social-buttons">
+                      <a href="https://twitter.com/jollyjoester"><i class="fa fa-twitter"></i></a>
+                    </span>
+                  
+                </h3>
+                
+                <h4>株式会社メルカリ</h4>
+                
+              </div>
+            </div>
+          
+        
+      
+        
+        
+          
+          
+            <div class="col-xs-4 col-sm-3 col-md-2 col-lg-2">
+              <div class="team-member">
+                
+                <a data-remodal-target="person_ktanaka117">
+                    <img src="https://tryswift-tokyo-after-talks.github.io/img/people/ktanaka117.jpg" class="img-responsive img-circle" alt="田中 賢治">
+                </a>
+                <h3>
+                  <a data-remodal-target="person_ktanaka117">
+                    田中 賢治
+                  </a>
+                  
+                    <span class="social-buttons">
+                      <a href="https://twitter.com/ktanaka117"><i class="fa fa-twitter"></i></a>
+                    </span>
+                  
+                </h3>
+                
+                <h4>クラスメソッド株式会社 iOSエンジニア</h4>
+                
+              </div>
+            </div>
+          
+        
+      
+        
+        
+          
+          
+            <div class="col-xs-4 col-sm-3 col-md-2 col-lg-2">
+              <div class="team-member">
+                
+                <a data-remodal-target="person_nonchalant">
+                    <img src="https://tryswift-tokyo-after-talks.github.io/img/people/nonchalant.png" class="img-responsive img-circle" alt="井原岳志">
+                </a>
+                <h3>
+                  <a data-remodal-target="person_nonchalant">
+                    井原岳志
+                  </a>
+                  
+                    <span class="social-buttons">
+                      <a href="https://twitter.com/nonchalant0303"><i class="fa fa-twitter"></i></a>
+                    </span>
+                  
+                </h3>
+                
+                <h4>株式会社リクルートマーケティングパートナーズ</h4>
+                
+              </div>
+            </div>
+          
+        
+      
+        
+        
+          
+          
+            <div class="col-xs-4 col-sm-3 col-md-2 col-lg-2">
+              <div class="team-member">
+                
+                <a data-remodal-target="person_tamaki">
+                    <img src="https://tryswift-tokyo-after-talks.github.io/img/people/tamaki.jpg" class="img-responsive img-circle" alt="玉城 信悟">
+                </a>
+                <h3>
+                  <a data-remodal-target="person_tamaki">
+                    玉城 信悟
+                  </a>
+                  
+                    <span class="social-buttons">
+                      <a href="https://www.facebook.com/shingo.tamaki.948"><i class="fa fa-facebook"></i></a>
+                    </span>
+                  
+                </h3>
+                
+                <h4>株式会社Origami</h4>
+                
+              </div>
+            </div>
+          
+        
+      
+        
+        
+          
+          
+            <div class="col-xs-4 col-sm-3 col-md-2 col-lg-2">
+              <div class="team-member">
+                
+                <a data-remodal-target="person_kazuhiro4949">
+                    <img src="https://tryswift-tokyo-after-talks.github.io/img/people/kazuhiro4949.jpg" class="img-responsive img-circle" alt="林和弘">
+                </a>
+                <h3>
+                  <a data-remodal-target="person_kazuhiro4949">
+                    林和弘
+                  </a>
+                  
+                    <span class="social-buttons">
+                      <a href="https://twitter.com/kazuhiro494949"><i class="fa fa-twitter"></i></a>
+                    </span>
+                  
+                </h3>
+                
+                <h4>ヤフー株式会社</h4>
+                
+              </div>
+            </div>
+          
+        
+      
+        
+        
+          
+          
+            <div class="col-xs-4 col-sm-3 col-md-2 col-lg-2">
+              <div class="team-member">
+                
+                <a data-remodal-target="person_kumamotone">
+                    <img src="https://tryswift-tokyo-after-talks.github.io/img/people/kumamotone.jpg" class="img-responsive img-circle" alt="熊本 和正">
+                </a>
+                <h3>
+                  <a data-remodal-target="person_kumamotone">
+                    熊本 和正
+                  </a>
+                  
+                    <span class="social-buttons">
+                      <a href="https://twitter.com/kumamo_tone"><i class="fa fa-twitter"></i></a>
+                    </span>
+                  
+                </h3>
+                
+                <h4>ヤフー株式会社</h4>
+                
+              </div>
+            </div>
+          
+        
+      
+        
+        
+          
+          
+            <div class="col-xs-4 col-sm-3 col-md-2 col-lg-2">
+              <div class="team-member">
+                
+                <a data-remodal-target="person_takasek">
+                    <img src="https://tryswift-tokyo-after-talks.github.io/img/people/takasek.jpg" class="img-responsive img-circle" alt="takasek">
+                </a>
+                <h3>
+                  <a data-remodal-target="person_takasek">
+                    takasek
+                  </a>
+                  
+                    <span class="social-buttons">
+                      <a href="https://twitter.com/takasek"><i class="fa fa-twitter"></i></a>
+                    </span>
+                  
+                </h3>
+                
+                <h4>フリーランスiOSエンジニア</h4>
+                
+              </div>
+            </div>
+          
+        
+      
+        
+        
+          
+          
+            <div class="col-xs-4 col-sm-3 col-md-2 col-lg-2">
+              <div class="team-member">
+                
+                <a data-remodal-target="person_tarappo">
+                    <img src="https://tryswift-tokyo-after-talks.github.io/img/people/tarappo.jpg" class="img-responsive img-circle" alt="平田敏之">
+                </a>
+                <h3>
+                  <a data-remodal-target="person_tarappo">
+                    平田敏之
+                  </a>
+                  
+                    <span class="social-buttons">
+                      <a href="https://twitter.com/tarappo"><i class="fa fa-twitter"></i></a>
+                    </span>
+                  
+                </h3>
+                
+                <h4>株式会社ディー・エヌ・エー</h4>
+                
+              </div>
+            </div>
+          
+        
+      
+    </div>
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 text-center">
+        <p class="large text-muted"></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+      <!-- Footer section -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <span class="copyright">Published under the Apache License 2.0.</span>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline social-buttons">
+
+          
+
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline quicklinks">
+
+          
+            <li><a href="#">Privacy Policy</a></li>
+          
+            <li><a href="#">Terms of Use</a></li>
+          
+
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+      
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+    <div class="remodal" data-remodal-id="day1_1">
+		  <button data-remodal-action="close" class="remodal-close"></button>
+		  <div class="modal-body">
+			  <div class="modal-image">
+          
+          <img src="https://tryswift-tokyo-after-talks.github.io/img/people/tobi462.jpg" class="img-responsive img-circle" alt="Yusuke Hosonuma">
+		    </div>
+	      <div class="modal-text">
+          <h2>今日から始める Swift Package Manager で作るCLIツール</h2>
+          <h3><i class="fa fa-bullhorn"></i> Yusuke Hosonuma</h3>
+          <h5 style="text-align: right;">Curated by 
+            
+              
+              
+              takasek
+            
+              
+              
+              七島偉之
+            
+          </h5>
+					<p><p>&ldquo;Swift Package Managerを使い、できるだけ素早くCLIツールを開発するためのテクニックを紹介します。</p>
+
+<p>Swift Package Managerには初期テンプレートや<br />
+Xcodeプロジェクトの生成機能などを備えていますが、実際に何かを作ろうとするといろいろなところでハマったりします。</p>
+
+<p>本トークでは、そういった本質的でないところに労力をかけず、Swiftを使ってCLIツールを開発するための設定やテクニック、便利なライブラリなどを紹介させていただこうと思います。</p>
+</p>
+		    </div>
+	    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+  
+
+    <div class="remodal" data-remodal-id="day1_2">
+		  <button data-remodal-action="close" class="remodal-close"></button>
+		  <div class="modal-body">
+			  <div class="modal-image">
+          
+          <img src="https://tryswift-tokyo-after-talks.github.io/img/people/takasek.jpg" class="img-responsive img-circle" alt="takasek">
+		    </div>
+	      <div class="modal-text">
+          <h2>mutatingキーワードから学ぶCQS</h2>
+          <h3><i class="fa fa-bullhorn"></i> takasek</h3>
+          <h5 style="text-align: right;">Curated by 
+            
+              
+              
+              松館 大輝
+            
+              
+              
+              七島偉之
+            
+          </h5>
+					<p>&ldquo;Bertrand Meyerが提唱した、CQS(コマンドクエリ分離)。この概念を理解することは、安全で堅牢なプログラミングに繋がります。CQSはさまざまなシーンで有効活用されています。もちろん、Swiftの言語デザインでも。Swiftのmutating funcの動きを見つめることで、CQSとは何か、どういう点で嬉しいのかを考えてみましょう。</p>
+		    </div>
+	    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+  
+
+    <div class="remodal" data-remodal-id="day1_3">
+		  <button data-remodal-action="close" class="remodal-close"></button>
+		  <div class="modal-body">
+			  <div class="modal-image">
+          
+          <img src="https://tryswift-tokyo-after-talks.github.io/img/people/jarinosuke.png" class="img-responsive img-circle" alt="Naoki Ishikawa/jarinosuke">
+		    </div>
+	      <div class="modal-text">
+          <h2>RIBs を用いたモバイルアーキテクチャ設計</h2>
+          <h3><i class="fa fa-bullhorn"></i> Naoki Ishikawa/jarinosuke</h3>
+          <h5 style="text-align: right;">Curated by 
+            
+              
+              
+              七島偉之
+            
+          </h5>
+					<p>RIBs というiOS/Androidモバイル向けアーキテクチャフレームワークを Uber が <sup>2017</sup>&frasl;<sub>11</sub> に OSS 化しました。その概要と使い方、Pros/Cons なども交えて説明します。</p>
+		    </div>
+	    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+  
+
+    <div class="remodal" data-remodal-id="day1_4">
+		  <button data-remodal-action="close" class="remodal-close"></button>
+		  <div class="modal-body">
+			  <div class="modal-image">
+          
+          <img src="https://tryswift-tokyo-after-talks.github.io/img/people/satoshin21.jpg" class="img-responsive img-circle" alt="Satoshi Nagasaka">
+		    </div>
+	      <div class="modal-text">
+          <h2>World of No Interface Builder</h2>
+          <h3><i class="fa fa-bullhorn"></i> Satoshi Nagasaka</h3>
+          <h5 style="text-align: right;">Curated by 
+            
+              
+              
+              熊本 和正
+            
+          </h5>
+					<p>私のチームでは、現在Storyboardやxib/nibファイルなど、Interface Builderを用いない実装が推奨されています。なぜ、ほぼ全てのUIをコードで実装する決断をしたのか？Interface Builderとチーム開発という観点からお話します。<br />
+また、コード上でUIを実装する為のTips、またInterface Builderを用いるべきタイミングについてもお話できればと思います。</p>
+		    </div>
+	    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+  
+
+    <div class="remodal" data-remodal-id="day1_5">
+		  <button data-remodal-action="close" class="remodal-close"></button>
+		  <div class="modal-body">
+			  <div class="modal-image">
+          
+          <img src="https://tryswift-tokyo-after-talks.github.io/img/people/gaopin1534.jpg" class="img-responsive img-circle" alt="Kouhei Takamatsu">
+		    </div>
+	      <div class="modal-text">
+          <h2>The swifter way of A/B testing implementation</h2>
+          <h3><i class="fa fa-bullhorn"></i> Kouhei Takamatsu</h3>
+          <h5 style="text-align: right;">Curated by 
+            
+              
+              
+              takasek
+            
+          </h5>
+					<p><p>今日では、A/Bテストは製品改良サイクルに着手するための一般的な手法であり、ユーザーが好むものを知ることができます。しかし、A/Bテストの実装は複雑になり、ターゲットは散らかり、その影響範囲を知ることは難しくなりがちです。したがって、削除または変更する際は、注意する必要があります。</p>
+
+<p>最近取り組んでいる、プロトコル、関連型、その他の強力なSwiftの機能を使った A/BテストのよりSwiftらしい実装方法についてお話したいと思います。また、Townworkという国内のリクルーティングアプリの中でも大きなiOSアプリで経験したいくつかのケーススタディについても紹介します。</p>
+</p>
+		    </div>
+	    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+  
+  
+  
+  
+
+    <div class="remodal" data-remodal-id="day2_1">
+		  <button data-remodal-action="close" class="remodal-close"></button>
+		  <div class="modal-body">
+			  <div class="modal-image">
+          
+          <img src="https://tryswift-tokyo-after-talks.github.io/img/people/kazuhiro4949.jpg" class="img-responsive img-circle" alt="林和弘">
+		    </div>
+	      <div class="modal-text">
+          <h2>Swiftバグレポートレポート</h2>
+          <h3><i class="fa fa-bullhorn"></i> 林和弘</h3>
+          <h5 style="text-align: right;">Curated by 
+            
+              
+              
+              七島偉之
+            
+              
+              
+              松館 大輝
+            
+          </h5>
+					<p>Swiftのバグレポートの中から面白そうなのをピックアップします</p>
+		    </div>
+	    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+  
+
+    <div class="remodal" data-remodal-id="day2_2">
+		  <button data-remodal-action="close" class="remodal-close"></button>
+		  <div class="modal-body">
+			  <div class="modal-image">
+          
+          <img src="https://tryswift-tokyo-after-talks.github.io/img/people/inamiy.jpg" class="img-responsive img-circle" alt="Yasuhiro Inami">
+		    </div>
+	      <div class="modal-text">
+          <h2>Result<T> V.S. Result<T, E></h2>
+          <h3><i class="fa fa-bullhorn"></i> Yasuhiro Inami</h3>
+          <h5 style="text-align: right;">Curated by 
+            
+              
+              
+              七島偉之
+            
+              
+              
+              松館 大輝
+            
+          </h5>
+					<p>このトークでは、なぜ Result<T> よりも Result<T, E> の方が重要である理由を探求したいと思います。</p>
+		    </div>
+	    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+  
+
+    <div class="remodal" data-remodal-id="day2_3">
+		  <button data-remodal-action="close" class="remodal-close"></button>
+		  <div class="modal-body">
+			  <div class="modal-image">
+          
+          <img src="https://tryswift-tokyo-after-talks.github.io/img/people/niwatako.jpg" class="img-responsive img-circle" alt="Seiyo Kurita">
+		    </div>
+	      <div class="modal-text">
+          <h2>忙しい人のためのブロックチェーン</h2>
+          <h3><i class="fa fa-bullhorn"></i> Seiyo Kurita</h3>
+          <h5 style="text-align: right;">Curated by 
+            
+              
+              
+              後藤玲子
+            
+          </h5>
+					<p>&ldquo;ビットコインに代表されるブロックチェーンとはなんでしょう。なぜ仮想通貨に価値が見いだされるのでしょうか。そしてpeer to peerであるブロックチェーンネットワーク上で分散的に動作するアプリケーション(Decentralized Applications)とはどのようなものでしょう。クライアントサイドアプリケーション開発を主とするSwiftエンジニアのために、ブロックチェーンの世界とそこでのクライアントサイドアプリケーションエンジニアの役割、そして試しにSwiftでアプリを実装してみるための足がかりをお話します。</p>
+		    </div>
+	    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+    <div class="remodal" data-remodal-id="day2_5">
+		  <button data-remodal-action="close" class="remodal-close"></button>
+		  <div class="modal-body">
+			  <div class="modal-image">
+          
+          <img src="https://tryswift-tokyo-after-talks.github.io/img/people/koher.jpg" class="img-responsive img-circle" alt="Yuta Koshizawa">
+		    </div>
+	      <div class="modal-text">
+          <h2><code>Image</code> を値型として扱う</h2>
+          <h3><i class="fa fa-bullhorn"></i> Yuta Koshizawa</h3>
+          <h5 style="text-align: right;">Curated by 
+            
+              
+              
+              松館 大輝
+            
+          </h5>
+					<p>イミュータブルオブジェクトは参照を介した共有オブジェクトの変更を避けるために、モダンプログラミングで一般的に用いられています。イミュータブルオブジェクトを更新したいときには、更新したいプロパティ以外のプロパティが、オリジナルと同じ値を持った、新しいインスタンスを生成する必要があります。小さなオブジェクトではうまくいきますが、画像のような大きなオブジェクトではそうはいきません。画像はプロパティとして数千万のピクセルを保持することがあります。ある１つのピクセルを更新するためだけに、すべてのピクセルをコピーするというのは現実的ではありません。Swift では、このような問題を回避するために、他の方法が用意されています。それが値型 (Value type) です。値型のインスタンスが変数に割り当てられたり、関数を通す際は、共有はされずにコピーされます。これは値型がイミュータブルオブジェクトが共有を回避するのと同じやり方で使われます。Swiftでは、標準ライブラリのほとんどの型が値型です。コレクション型もコピーオンライトを用いることで値型として提供されています。これにより、画像の型を値型として実装するのが容易となります。私は EasyImagy ( <a href="https://github.com/koher/EasyImagy">https://github.com/koher/EasyImagy</a> ) という画像の型を値型として提供するライブラリを開発しています。このトークでは、画像型の例を通じて、Swift の値型の優位性についてお話したいと思います。</p>
+		    </div>
+	    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+  
+
+    <div class="remodal" data-remodal-id="day2_6">
+		  <button data-remodal-action="close" class="remodal-close"></button>
+		  <div class="modal-body">
+			  <div class="modal-image">
+          
+          <img src="https://tryswift-tokyo-after-talks.github.io/img/people/bannzai.jpg" class="img-responsive img-circle" alt="bannzai">
+		    </div>
+	      <div class="modal-text">
+          <h2>デザイナーとエンジニアが理解し合うために</h2>
+          <h3><i class="fa fa-bullhorn"></i> bannzai</h3>
+          <h5 style="text-align: right;">Curated by 
+            
+              
+              
+              田中 賢治
+            
+          </h5>
+					<p><p>iOSアプリエンジニアをしているとデザイナーとのコミュニケーションに対して難しさを感じる人もいるのではないでしょうか<br />
+iOSの特性・UIKitの特性の知識の差ゆえに納得いく説明ができないととても歯がゆくなります<br />
+また、Sketchで定義しているUIとアプリのUIが同じかどうかを確認するコミュニケーションコストも気になるところです</p>
+
+<p>チームで開発する上でコミュニケーションは欠かせないことです。<br />
+そして、コミュニケーションがネガティブになってしまうことは防ぐべきことです</p>
+
+<p>この課題を解決するために私たちのチームでは「AtomicDesignでのデザイン設計」や「デザイナーとペアプログラミング」などを行いました。</p>
+
+<p>このお話では課題解決のアプローチや狙い、実際にやってみて良かったことをお話ししていこうと考えています</p>
+</p>
+		    </div>
+	    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+  
+  <div class="remodal" data-remodal-id="person_bannzai">
+      <button data-remodal-action="close" class="remodal-close"></button>
+      
+        <div class="modal-body">
+              <div class="team-member">
+                
+                <img src="https://tryswift-tokyo-after-talks.github.io/img/people/bannzai.jpg" class="img-responsive img-circle" alt="bannzai">
+                <h3>bannzai</h3>
+    
+                
+    
+                <ul class="list-inline social-buttons">
+                  
+                    <li><a href="https://twitter.com/_bannzai_"><i class="fa fa-twitter"></i></a></li>
+                  
+                    <li><a href="https://github.com/bannzai"><i class="fa fa-github"></i></a></li>
+                  
+                </ul>
+    
+                
+                <p class="organizers-bio">iOSエンジニア。スター乞食です。スターください</p>
+                
+    
+              </div>
+        </div>
+      
+  </div>
+
+
+
+
+
+  
+  <div class="remodal" data-remodal-id="person_burakon">
+      <button data-remodal-action="close" class="remodal-close"></button>
+      
+        <div class="modal-body">
+              <div class="team-member">
+                
+                <img src="https://tryswift-tokyo-after-talks.github.io/img/people/burakon.jpg" class="img-responsive img-circle" alt="後藤玲子">
+                <h3>後藤玲子</h3>
+    
+                
+                <h4>iOSアプリエンジニア</h4>
+                
+    
+                <ul class="list-inline social-buttons">
+                  
+                    <li><a href="https://twitter.com/burakon"><i class="fa fa-twitter"></i></a></li>
+                  
+                </ul>
+    
+                
+                <p class="organizers-bio">人事職からiOSアプリエンジニアへキャリアチェンジをして、現在エンジニア歴2年。自分自身色んな方々に助けてもらってエンジニアになったので、その体験を拡げたいと思いSwift愛好会コミュニティ運営メンバーをしています。iOSアプリのUIデザインを少々たしなみます。</p>
+                
+    
+              </div>
+        </div>
+      
+  </div>
+
+
+
+
+
+  
+  <div class="remodal" data-remodal-id="person_d_date">
+      <button data-remodal-action="close" class="remodal-close"></button>
+      
+        <div class="modal-body">
+              <div class="team-member">
+                
+                <img src="https://tryswift-tokyo-after-talks.github.io/img/people/d_date.jpg" class="img-responsive img-circle" alt="松館 大輝">
+                <h3>松館 大輝</h3>
+    
+                
+                <h4>iOS Freelancer</h4>
+                
+    
+                <ul class="list-inline social-buttons">
+                  
+                    <li><a href="https://twitter.com/d_date"><i class="fa fa-twitter"></i></a></li>
+                  
+                </ul>
+    
+                
+                <p class="organizers-bio">数社のスタートアップでの開発を経験したのちフリーランスになりました。新しいトピックを開発に取り入れていくのが好きで、特にSwiftとFirebaseが好きです。コードを書いていないときは、ミートアップやカンファレンスに出席しているか、登壇しているか、主催をしています。休みの日は地方遠征か海外パトロールをしています。</p>
+                
+    
+              </div>
+        </div>
+      
+  </div>
+
+
+
+
+
+  
+  <div class="remodal" data-remodal-id="person_gaopin1534">
+      <button data-remodal-action="close" class="remodal-close"></button>
+      
+        <div class="modal-body">
+              <div class="team-member">
+                
+                <img src="https://tryswift-tokyo-after-talks.github.io/img/people/gaopin1534.jpg" class="img-responsive img-circle" alt="Kouhei Takamatsu">
+                <h3>Kouhei Takamatsu</h3>
+    
+                
+    
+                <ul class="list-inline social-buttons">
+                  
+                    <li><a href="https://twitter.com/gaopin1534"><i class="fa fa-twitter"></i></a></li>
+                  
+                    <li><a href="https://github.com/gaopin1534"><i class="fa fa-github"></i></a></li>
+                  
+                </ul>
+    
+                
+                <p class="organizers-bio">Kouhei a.k.a gaopin1534. An iOS engineer, used to be a server side engineer. Love technologies and beer.</p>
+                
+    
+              </div>
+        </div>
+      
+  </div>
+
+
+
+
+
+  
+  <div class="remodal" data-remodal-id="person_inamiy">
+      <button data-remodal-action="close" class="remodal-close"></button>
+      
+        <div class="modal-body">
+              <div class="team-member">
+                
+                <img src="https://tryswift-tokyo-after-talks.github.io/img/people/inamiy.jpg" class="img-responsive img-circle" alt="Yasuhiro Inami">
+                <h3>Yasuhiro Inami</h3>
+    
+                
+                <h4>an iOS developer at CyberAgent, Inc</h4>
+                
+    
+                <ul class="list-inline social-buttons">
+                  
+                    <li><a href="https://twitter.com/inamiy"><i class="fa fa-twitter"></i></a></li>
+                  
+                    <li><a href="https://github.com/inamiy"><i class="fa fa-github"></i></a></li>
+                  
+                </ul>
+    
+                
+                <p class="organizers-bio">While creating AbemaTV (Japanese TV app, <a href="https://abema.tv/">https://abema.tv/</a>) in his work, he also dedicates his time to functional programming and open source projects. He is a huge fan of Swift, Haskell, and any statically typed languages that compiler can check his bad code, yet he also loves unpredictable, dynamic world he lives in now.</p>
+                
+    
+              </div>
+        </div>
+      
+  </div>
+
+
+
+
+
+  
+  <div class="remodal" data-remodal-id="person_jarinosuke">
+      <button data-remodal-action="close" class="remodal-close"></button>
+      
+        <div class="modal-body">
+              <div class="team-member">
+                
+                <img src="https://tryswift-tokyo-after-talks.github.io/img/people/jarinosuke.png" class="img-responsive img-circle" alt="Naoki Ishikawa/jarinosuke">
+                <h3>Naoki Ishikawa/jarinosuke</h3>
+    
+                
+                <h4>iOS Engineer @ Mercari, Inc</h4>
+                
+    
+                <ul class="list-inline social-buttons">
+                  
+                    <li><a href="https://twitter.com/jarinosuke"><i class="fa fa-twitter"></i></a></li>
+                  
+                    <li><a href="https://github.com/jarinosuke"><i class="fa fa-github"></i></a></li>
+                  
+                </ul>
+    
+                
+    
+              </div>
+        </div>
+      
+  </div>
+
+
+
+
+
+  
+  <div class="remodal" data-remodal-id="person_jollyjoester">
+      <button data-remodal-action="close" class="remodal-close"></button>
+      
+        <div class="modal-body">
+              <div class="team-member">
+                
+                <img src="https://tryswift-tokyo-after-talks.github.io/img/people/jollyjoester.jpg" class="img-responsive img-circle" alt="七島偉之">
+                <h3>七島偉之</h3>
+    
+                
+                <h4>株式会社メルカリ</h4>
+                
+    
+                <ul class="list-inline social-buttons">
+                  
+                    <li><a href="https://twitter.com/jollyjoester"><i class="fa fa-twitter"></i></a></li>
+                  
+                </ul>
+    
+                
+                <p class="organizers-bio">メルカリの開発組織を強くするためにいろいろやっている人。趣味で<a href="https://love-swift.connpass.com/">Swift愛好会</a>や<a href="https://www.tryswift.co/events/2018/tokyo/en/">try! Swift</a>など、みんなでもっとSwiftを楽しめるようなネタを試しています。 かんぱいやー（勉強会で乾杯をする人）としても知られていて、乾杯の力でSwift好きの輪を広めています。</p>
+                
+    
+              </div>
+        </div>
+      
+  </div>
+
+
+
+
+
+  
+  <div class="remodal" data-remodal-id="person_kazuhiro4949">
+      <button data-remodal-action="close" class="remodal-close"></button>
+      
+        <div class="modal-body">
+              <div class="team-member">
+                
+                <img src="https://tryswift-tokyo-after-talks.github.io/img/people/kazuhiro4949.jpg" class="img-responsive img-circle" alt="林和弘">
+                <h3>林和弘</h3>
+    
+                
+                <h4>ヤフー株式会社</h4>
+                
+    
+                <ul class="list-inline social-buttons">
+                  
+                    <li><a href="https://twitter.com/kazuhiro494949"><i class="fa fa-twitter"></i></a></li>
+                  
+                </ul>
+    
+                
+                <p class="organizers-bio">GitHub: <a href="https://github.com/kazuhiro4949">https://github.com/kazuhiro4949</a>  / Qiita: <a href="http://qiita.com/kazuhiro4949">http://qiita.com/kazuhiro4949</a>  / speakerdeck: <a href="https://speakerdeck.com/kazuhiro4949">https://speakerdeck.com/kazuhiro4949</a></p>
+                
+    
+              </div>
+        </div>
+      
+  </div>
+
+
+
+
+
+  
+  <div class="remodal" data-remodal-id="person_koher">
+      <button data-remodal-action="close" class="remodal-close"></button>
+      
+        <div class="modal-body">
+              <div class="team-member">
+                
+                <img src="https://tryswift-tokyo-after-talks.github.io/img/people/koher.jpg" class="img-responsive img-circle" alt="Yuta Koshizawa">
+                <h3>Yuta Koshizawa</h3>
+    
+                
+                <h4>a developer at Qoncept</h4>
+                
+    
+                <ul class="list-inline social-buttons">
+                  
+                    <li><a href="https://twitter.com/koher"><i class="fa fa-twitter"></i></a></li>
+                  
+                    <li><a href="https://github.com/koher"><i class="fa fa-github"></i></a></li>
+                  
+                </ul>
+    
+                
+                <p class="organizers-bio">His posts about Swift on Qiita are well known among Japanese iOS developers. He has also been developing SWIFT QUEST, which is an online book for programming beginners to learn programming from Hello World to monads using only Swift.</p>
+                
+    
+              </div>
+        </div>
+      
+  </div>
+
+
+
+
+
+  
+  <div class="remodal" data-remodal-id="person_ktanaka117">
+      <button data-remodal-action="close" class="remodal-close"></button>
+      
+        <div class="modal-body">
+              <div class="team-member">
+                
+                <img src="https://tryswift-tokyo-after-talks.github.io/img/people/ktanaka117.jpg" class="img-responsive img-circle" alt="田中 賢治">
+                <h3>田中 賢治</h3>
+    
+                
+                <h4>クラスメソッド株式会社 iOSエンジニア</h4>
+                
+    
+                <ul class="list-inline social-buttons">
+                  
+                    <li><a href="https://twitter.com/ktanaka117"><i class="fa fa-twitter"></i></a></li>
+                  
+                </ul>
+    
+                
+                <p class="organizers-bio"><a href="https://classmethod.connpass.com/event/78947/">AKIBA.swift</a>をやっている百合好きのダンボールの人です。最近はiOSアプリの設計/テスト/TDDに興味があります。📦 <a href="https://dev.classmethod.jp/author/tanaka-kenji/">Developers.IO</a> / <a href="https://www.slideshare.net/kenjitanaka58?utm_campaign=profiletracking&amp;utm_medium=sssite&amp;utm_source=ssslideview">SlideShare</a></p>
+                
+    
+              </div>
+        </div>
+      
+  </div>
+
+
+
+
+
+  
+  <div class="remodal" data-remodal-id="person_kumamotone">
+      <button data-remodal-action="close" class="remodal-close"></button>
+      
+        <div class="modal-body">
+              <div class="team-member">
+                
+                <img src="https://tryswift-tokyo-after-talks.github.io/img/people/kumamotone.jpg" class="img-responsive img-circle" alt="熊本 和正">
+                <h3>熊本 和正</h3>
+    
+                
+                <h4>ヤフー株式会社</h4>
+                
+    
+                <ul class="list-inline social-buttons">
+                  
+                    <li><a href="https://twitter.com/kumamo_tone"><i class="fa fa-twitter"></i></a></li>
+                  
+                </ul>
+    
+                
+                <p class="organizers-bio">Yahoo! JAPAN で iOS/Android アプリ開発をしたり勉強会運営をしたりしています。文章のように直感的にコードが読み書きできるプログラミング言語、特にSwiftが好きです。あと音楽と漫画が好きです。</p>
+                
+    
+              </div>
+        </div>
+      
+  </div>
+
+
+
+
+
+  
+  <div class="remodal" data-remodal-id="person_naruchigi">
+      <button data-remodal-action="close" class="remodal-close"></button>
+      
+        <div class="modal-body">
+              <div class="team-member">
+                
+                <img src="https://tryswift-tokyo-after-talks.github.io/img/people/naruchigi.png" class="img-responsive img-circle" alt="Naruki Chigira">
+                <h3>Naruki Chigira</h3>
+    
+                
+                <h4>株式会社TimersのリードiOSエンジニア</h4>
+                
+    
+                <ul class="list-inline social-buttons">
+                  
+                    <li><a href="https://twitter.com/naruchigi"><i class="fa fa-twitter"></i></a></li>
+                  
+                    <li><a href="https://github.com/naru-jpn"><i class="fa fa-github"></i></a></li>
+                  
+                </ul>
+    
+                
+                <p class="organizers-bio">家族アルバムFammとカップルアプリPairyの開発に携わっている。趣味は物理学で、最近 arXiv.org の論文を閲覧するためのアプリ Lib arXiv をリリースした。</p>
+                
+    
+              </div>
+        </div>
+      
+  </div>
+
+
+
+
+
+  
+  <div class="remodal" data-remodal-id="person_niwatako">
+      <button data-remodal-action="close" class="remodal-close"></button>
+      
+        <div class="modal-body">
+              <div class="team-member">
+                
+                <img src="https://tryswift-tokyo-after-talks.github.io/img/people/niwatako.jpg" class="img-responsive img-circle" alt="Seiyo Kurita">
+                <h3>Seiyo Kurita</h3>
+    
+                
+                <h4>Engineer at Hatena</h4>
+                
+    
+                <ul class="list-inline social-buttons">
+                  
+                    <li><a href="https://twitter.com/niwatako"><i class="fa fa-twitter"></i></a></li>
+                  
+                </ul>
+    
+                
+    
+              </div>
+        </div>
+      
+  </div>
+
+
+
+
+
+  
+  <div class="remodal" data-remodal-id="person_nonchalant">
+      <button data-remodal-action="close" class="remodal-close"></button>
+      
+        <div class="modal-body">
+              <div class="team-member">
+                
+                <img src="https://tryswift-tokyo-after-talks.github.io/img/people/nonchalant.png" class="img-responsive img-circle" alt="井原岳志">
+                <h3>井原岳志</h3>
+    
+                
+                <h4>株式会社リクルートマーケティングパートナーズ</h4>
+                
+    
+                <ul class="list-inline social-buttons">
+                  
+                    <li><a href="https://twitter.com/nonchalant0303"><i class="fa fa-twitter"></i></a></li>
+                  
+                </ul>
+    
+                
+                <p class="organizers-bio">リクルートマーケティングパートナーズで教育系サービスの開発を行っています。Kyobashi.swiftの主催を行っています。「コード : ボルダリング : ゲーム = 0.9 : 1.0 : 1.0」で日々を暮らしています。</p>
+                
+    
+              </div>
+        </div>
+      
+  </div>
+
+
+
+
+
+  
+  <div class="remodal" data-remodal-id="person_satoshin21">
+      <button data-remodal-action="close" class="remodal-close"></button>
+      
+        <div class="modal-body">
+              <div class="team-member">
+                
+                <img src="https://tryswift-tokyo-after-talks.github.io/img/people/satoshin21.jpg" class="img-responsive img-circle" alt="Satoshi Nagasaka">
+                <h3>Satoshi Nagasaka</h3>
+    
+                
+    
+                <ul class="list-inline social-buttons">
+                  
+                    <li><a href="https://twitter.com/SatoshiN21"><i class="fa fa-twitter"></i></a></li>
+                  
+                    <li><a href="https://github.com/Satoshin21"><i class="fa fa-github"></i></a></li>
+                  
+                </ul>
+    
+                
+                <p class="organizers-bio">エウレカでオンラインデーティングサービスであるPairs(日本語版)のiOS開発を担当しており、主にUI/UXの改善を行っています。</p>
+                
+    
+              </div>
+        </div>
+      
+  </div>
+
+
+
+
+
+  
+  <div class="remodal" data-remodal-id="person_takasek">
+      <button data-remodal-action="close" class="remodal-close"></button>
+      
+        <div class="modal-body">
+              <div class="team-member">
+                
+                <img src="https://tryswift-tokyo-after-talks.github.io/img/people/takasek.jpg" class="img-responsive img-circle" alt="takasek">
+                <h3>takasek</h3>
+    
+                
+                <h4>フリーランスiOSエンジニア</h4>
+                
+    
+                <ul class="list-inline social-buttons">
+                  
+                    <li><a href="https://twitter.com/takasek"><i class="fa fa-twitter"></i></a></li>
+                  
+                </ul>
+    
+                
+                <p class="organizers-bio">フリーランスのiOSアプリ開発者。難しいことは考えられない性格で、難しいことを全部引き受けてくれる堅牢な設計・型システムが好き。趣味としてカンファレンス・勉強会での発表を継続的に行っている。<a href="https://github.com/takasek/ActionClosurable">ActionClosurable</a>, <a href="https://itunes.apple.com/us/app/pastethetype/id1288063933?mt=12">PasteTyeType</a>などのOSSやツールを公開している。</p>
+                
+    
+              </div>
+        </div>
+      
+  </div>
+
+
+
+
+
+  
+  <div class="remodal" data-remodal-id="person_tamaki">
+      <button data-remodal-action="close" class="remodal-close"></button>
+      
+        <div class="modal-body">
+              <div class="team-member">
+                
+                <img src="https://tryswift-tokyo-after-talks.github.io/img/people/tamaki.jpg" class="img-responsive img-circle" alt="玉城 信悟">
+                <h3>玉城 信悟</h3>
+    
+                
+                <h4>株式会社Origami</h4>
+                
+    
+                <ul class="list-inline social-buttons">
+                  
+                    <li><a href="https://www.facebook.com/shingo.tamaki.948"><i class="fa fa-facebook"></i></a></li>
+                  
+                </ul>
+    
+                
+                <p class="organizers-bio">HomeKitやUIテストが好きなiOSエンジニア</p>
+                
+    
+              </div>
+        </div>
+      
+  </div>
+
+
+
+
+
+  
+  <div class="remodal" data-remodal-id="person_tarappo">
+      <button data-remodal-action="close" class="remodal-close"></button>
+      
+        <div class="modal-body">
+              <div class="team-member">
+                
+                <img src="https://tryswift-tokyo-after-talks.github.io/img/people/tarappo.jpg" class="img-responsive img-circle" alt="平田敏之">
+                <h3>平田敏之</h3>
+    
+                
+                <h4>株式会社ディー・エヌ・エー</h4>
+                
+    
+                <ul class="list-inline social-buttons">
+                  
+                    <li><a href="https://twitter.com/tarappo"><i class="fa fa-twitter"></i></a></li>
+                  
+                </ul>
+    
+                
+                <p class="organizers-bio">DeNAのSWETで、主にモバイルアプリのテスト戦略、自動テスト、CI/CD環境の整備などを担当。 iOS Test Night / Android Test Nightの主宰をしています。</p>
+                
+    
+              </div>
+        </div>
+      
+  </div>
+
+
+
+
+
+  
+  <div class="remodal" data-remodal-id="person_tobi462">
+      <button data-remodal-action="close" class="remodal-close"></button>
+      
+        <div class="modal-body">
+              <div class="team-member">
+                
+                <img src="https://tryswift-tokyo-after-talks.github.io/img/people/tobi462.jpg" class="img-responsive img-circle" alt="Yusuke Hosonuma">
+                <h3>Yusuke Hosonuma</h3>
+    
+                
+    
+                <ul class="list-inline social-buttons">
+                  
+                    <li><a href="https://twitter.com/tobi462"><i class="fa fa-twitter"></i></a></li>
+                  
+                    <li><a href="https://github.com/YusukeHosonuma"><i class="fa fa-github"></i></a></li>
+                  
+                </ul>
+    
+                
+                <p class="organizers-bio">iOS歴3年、Swiftは1.0の頃から触っています。最近はKotlinも好きです。</p>
+                
+    
+              </div>
+        </div>
+      
+  </div>
+
+
+
+    <!-- jQuery -->
+<script src="https://tryswift-tokyo-after-talks.github.io/js/jquery-v3.3.1/jquery.min.js"></script>
+
+<!-- Bootstrap Core -->
+<script src="https://tryswift-tokyo-after-talks.github.io/js/bootstrap-v3.3.7/bootstrap.min.js"></script>
+
+<!-- Form Validation -->
+<script src="https://tryswift-tokyo-after-talks.github.io/js/jquery.form-validator-v2.3.44/jquery.form-validator.min.js"></script>
+
+<!-- Custom Theme -->
+<script src="https://tryswift-tokyo-after-talks.github.io/js/agency.js"></script>
+
+
+
+
+
+
+  <script src="https://tryswift-tokyo-after-talks.github.io/js/remodal.min.js"></script>
+
+
+  </body>
+</html>
